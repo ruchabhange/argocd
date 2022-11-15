@@ -1,0 +1,7 @@
+/home/rucha/argocd/argocd/java-sample-application/source-code/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/StockManagerApplication.java
+/home/rucha/argocd/argocd/java-sample-application/source-code/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/exceptions/StockNotFoundException.java
+/home/rucha/argocd/argocd/java-sample-application/source-code/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/repositories/StockRepository.java
+/home/rucha/argocd/argocd/java-sample-application/source-code/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/services/StockService.java
+/home/rucha/argocd/argocd/java-sample-application/source-code/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/model/Stock.java
+/home/rucha/argocd/argocd/java-sample-application/source-code/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/resources/StockResource.java
+/home/rucha/argocd/argocd/java-sample-application/source-code/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/config/DataGenerator.java
