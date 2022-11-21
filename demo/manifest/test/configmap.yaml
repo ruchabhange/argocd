@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: moving-shapes-colors
+data:
+  CIRCLE_COLOR: "pink"
+  OVAL_COLOR: "pink"
+  SQUARE_COLOR: "pink"
+  TRIANGLE_COLOR: "pink"  
+  RECTANGLE_COLOR: "pink 
