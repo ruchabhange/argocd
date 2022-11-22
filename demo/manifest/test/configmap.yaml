@@ -4,7 +4,7 @@ metadata:
   name: moving-shapes-colors
 data:
   CIRCLE_COLOR: "pink"
-  OVAL_COLOR: "pink"
+  OVAL_COLOR: "green"
   SQUARE_COLOR: "pink"
-  TRIANGLE_COLOR: "pink"  
-  RECTANGLE_COLOR: "pink 
+  TRIANGLE_COLOR: "green"  
+  RECTANGLE_COLOR: "pink"
