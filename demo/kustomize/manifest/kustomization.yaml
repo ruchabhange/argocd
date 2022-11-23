@@ -4,8 +4,8 @@ resources:
 - nginx-application.yaml
 images:
   - name: nginx
-    newName: busybox
-    newTag: latest
+    newName: nginx
+    newTag: 1.80.1
 replicas:
   - name: nginx-deployment
     count: 1
