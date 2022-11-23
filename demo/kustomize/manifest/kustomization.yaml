@@ -8,7 +8,7 @@ images:
     newTag: 1.18.0
 replicas:
   - name: nginx-deployment
-    count: 2
+    count: 1
 
 commonAnnotations:
   kubernetes.io/change-cause: "Initial deployment with 1.18.0"
