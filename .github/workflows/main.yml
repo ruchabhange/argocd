@@ -44,4 +44,4 @@ jobs:
           java-package: jdk
           java-version: ${{ matrix.java }}
       - name: Compile the Project
-        run: mvn -B compile
+        run: mvn -B compile -X
