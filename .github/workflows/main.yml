@@ -45,3 +45,22 @@ jobs:
           java-version: ${{ matrix.java }}
       - name: Compile the Project
         run: mvn -B compile 
+  security:
+    runs-on: ubuntu-latest
+#    if: contains(fromJson('["pull_request"]'), github.event_name )|| (github.ref == 'refs/heads/master')
+    steps:
+      - uses: actions/checkout@master
+      - name: Run Snyk to check for vulnerabilities (Monitor only)
+        uses: snyk/actions/maven@master
+        continue-on-error: true
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        with:
+          command: monitor
+      - name: Run Snyk to check for vulnerabilities (test)
+        uses: snyk/actions/maven@master
+        continue-on-error: true # To make sure that SARIF upload gets called
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        with:
+          args: --sarif-file-output=snyk.sarif
