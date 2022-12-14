@@ -11,21 +11,9 @@
 
 	<!-- sub modules -->
 	<modules>
-        <module>
-            <java-sample-application>
-                <source-code>productcatalogue</source-code>
-            </java-sample-application>
-        </module>
-        <module>
-            <java-sample-application>
-                <source-code>shopfront</source-code>
-            </java-sample-application>
-        </module>
-        <module>
-            <java-sample-application>
-                <source-code>stockmanager</source-code>
-            </java-sample-application>
-        </module>
+        <module>java-sample-application/source-code/productcatalogue</module>
+        <module>java-sample-application/source-code/shopfront</module>
+        <module>java-sample-application/source-code/stockmanager</module>
     </modules>
 	
 </project>
