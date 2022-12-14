@@ -11,9 +11,9 @@
 
 	<!-- sub modules -->
 	<modules>
-        <module>productcatalogue</module>
-        <module>shopfront</module>
-        <module>stockmanager</module>
+        <module>./../../productcatalogue</module>
+        <module>./../../shopfront</module>
+        <module>./../../stockmanager</module>
     </modules>
 	
 </project>
